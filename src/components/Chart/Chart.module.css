@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 55vw;
+}
+
+
+
+
+/*  MEDIA QUERY */
+
+@media(max-width: 1580px){
+    .container{
+        width: 65vw;
+    }
+}
+
+
+@media(max-width: 1380px){
+    .container{
+        width: 75vw;
+    }
+}
+
+@media(max-width: 998px){
+    .container{
+        min-width: 85vw;
+    } 
+}
+
+
+@media(max-width: 600px){
+    .container{
+        min-width: 300px;
+    }
+}
